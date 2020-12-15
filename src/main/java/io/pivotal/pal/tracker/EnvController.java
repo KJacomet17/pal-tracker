@@ -21,7 +21,7 @@ public class EnvController {
         this.port = port;
         this.memoryLimit = memoryLimit;
         this.cfInstanceIndex = cfInstanceIndex;
-        this.cfInstanceAddr = cfInstanceIndex;
+        this.cfInstanceAddr = cfInstanceAddr;
     }
 
     @GetMapping("/env")
